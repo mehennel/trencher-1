@@ -4,28 +4,40 @@ class Motor():
     __dir = None
     __speed = None
     __pi = None
+    __break = None
+    __currSpeed = None
 
-    def __init__(self, pi, directionPin, speedPin):
+    def __init__(self, pi, sv, fr, brk):
         self.__pi = pi
-        self.__dir - directionPin
-        self.__speed = speedPin
+        self.__speed = sv
+        self.__dir - fr
+        self.__break = brk
         self.__pi.set_mode(self.__dir, pigpio.OUTPUT)
         self.__pi.set_mode(self.__speed, pigpio.OUTPUT)
+        self.__pi.set_mode(self.__break, pigpio.OUTPUT)
+        self.__currSpeed = 0
 
     def setSpeed(self, speed):
-        self.__pi.set_servo_pulsewidth(self.__speed, speed)
+        if speed > 255:
+            self.__currSpeed = 255
+        elif speed < 0:
+            self.__currSpeed = 0
+        else:
+            self.__currSpeed = speed
 
-    def setDirection(self, direction):
-        self.__pi.write(dir, 0)
+        self.__pi.set_servo_pulsewidth(self.__speed, self.__currSpeed)
 
-    def ControlMotor(direction):# check if the switch is on and button is not pressed. If so, accelerate motor to max speed
-        #start recording clock for tracking RPM data
-        if direction == 'up' and pwm_value < 255:
-            pwm_value += 5
-        elif direction == 'down' and pwm_value > 0:
-            pwm_value -= 5
-        elif direction == 'space':
-            print(f"Motor stopped")
-            pwm_value = 0
-        if pwm_value == 5:
-             rpmStartTime = time.time()
+    def speedUp(self, amount):
+        self.setSpeed(self.__currSpeed + amount)
+
+    def slowDown(self, amount):
+        self.setSpeed(self.__currSpeed - amount)
+
+    def forward(self):
+        self.__pi.write(self.__dir, 0) #may need to swap
+
+    def reverse(self):
+        self.__pi.write(self.__dir, 1) #may need to swap
+
+    def hardStop(self):
+        self.__pi.write(self.__break, 1)

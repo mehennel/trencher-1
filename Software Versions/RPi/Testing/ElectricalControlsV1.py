@@ -1,9 +1,5 @@
 #|*****************************************************************************|
 #| Trencher BLDC Motor controls and sensor output
-#|   Currently, motor is controlled via 3 external periherals:
-#|     Push button: Toggles motor stopping and starting
-#|     Switch: Changes rotation of motor
-#|     Potentiometer: Changes speed of motor
 #| Author: Conor Porter
 #| Last Modified: 02/23/2021
 #|*****************************************************************************|
@@ -16,11 +12,12 @@ import time
 import datetime
 # import RPi.GPIO as GPIO
 from pynput import keyboard
+import spidev # To communicate with SPI devices
 
 #Motor outputs
-pwm = 12 #PWM pin
-dir = 27 #non-PWM pin
-rpm = 17 #non-PWM pin
+pwm = 3 #PWM pin
+dir = 4 #non-PWM pin
+rpm = 17
 
 #Current Sensor input
 ampVin = 3 #analog pin: potentiometer wiper (middle terminal) connected to analog pin 3
@@ -49,7 +46,9 @@ pi.set_mode(pwm, pigpio.OUTPUT)
 pi.set_mode(dir, pigpio.OUTPUT)
 pi.set_mode(rpm, pigpio.INPUT)
 
-
+# Start SPI connection
+spi = spidev.SpiDev() # Created an object
+spi.open(0,0)
 
 # GPIO.setmode(GPIO.BCM)
 # GPIO.setup(17 , GPIO.IN, pull_up_down=GPIO.PUD_UP)
@@ -70,6 +69,18 @@ def main():
         measureBucketRPMs()
         measureMotorCurrent()
 
+def ControlMotor(direction):# check if the switch is on and button is not pressed. If so, accelerate motor to max speed
+    #start recording clock for tracking RPM data
+    if direction == 'up' and pwm_value < 255:
+        pwm_value += 5
+    elif direction == 'down' and pwm_value > 0:
+        pwm_value -= 5
+    elif direction == 'space':
+        print(f"Motor stopped")
+        pwm_value = 0
+    if pwm_value == 5:
+         rpmStartTime = time.time()
+
 def on_press(key):
     if key == keyboard.Key.esc:
         return False  # stop listener
@@ -81,5 +92,39 @@ def on_press(key):
         # self.keys.append(k)  # store it in global-like variable
         print('Key pressed: ' + k)
         controlMotor(k)
+
+def measureBucketRPMs():
+    # Called if sensor output changes
+    if (pi.read(rpm) == 0):
+        sprocketCount += 1
+    # if not GPIO.input(channel):
+    #     # Magnet (LOW output)
+    #     bucketCount += 1
+
+    if (sprocketCount == sprocketRevs + 1): #plus 1 means it went full circle
+        rpmEndTime = time.time()
+        rpmDelta = (rpmEndTime - rpmStartTime)
+        sprocketCount = 0
+        bucketRPMs = 1.0 / ((rpmDelta) / 60.0)
+        print(f"RPM: {bucketRPMs} {rpmEndTime}")
+        rpmStartTime = time.time()
+
+# Read MCP3008 data
+def analogRead(channel):
+  spi.max_speed_hz = 1350000
+  adc = spi.xfer2([1,(8+channel)<<4,0])
+  data = ((adc[1]&3) << 8) + adc[2]
+  return data
+
+def measureMotorCurrent():
+    maxVal = 0
+    # delay(500)
+    # digitalWrite(13, !digitalRead(13))
+    for counter in range(1, samples):
+        reading = analogRead(ampVin) # read the input pin
+        if (reading > maxVal):
+            maxVal = reading
+    amps = ( (maxVal - zeroAmp) / halfAmp ) / 2.0
+    print(f"Current: {amps} {time.time()}")
 
 main()
