@@ -19,7 +19,7 @@ class HallEffectSensor(Sensor):
         self.__startTime = time.time()
 
     def read(self):
-        self.__pi.read(pin)
+        return self.__pi.read(pin)
 
     def measureRPMs(self):
         # Called if sensor output changes
