@@ -17,6 +17,10 @@ class SocketConnection():
     def close(self):
         self.__socket.close();
 
+    def setTimeout(self, seconds):
+        self.__socket.settimeout(seconds)
+
+
 class ServerConnection(SocketConnection):
     __host = None
     __port = None
@@ -25,6 +29,7 @@ class ServerConnection(SocketConnection):
         super().__init__()
         self.__host = host
         self.__port = port
+        super().setTimeout(1)
         self.get().connect((host, port))
 
     def getHost(self):
@@ -136,7 +141,7 @@ class Message():
         self.__message = message
 
     def type(self):
-        return self.messageType
+        return self.__messageType
 
     def contents(self):
         return self.__message
