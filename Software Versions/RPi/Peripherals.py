@@ -67,6 +67,7 @@ class HallEffectSensor():
         # Called if sensor output changes
         if (self.read() == 0):
             self.__currRevs += 1
+            print(f"output!")
 
         if (self.__currRevs == self.__revolutions + 1): #plus 1 means it went full circle
             rpmEndTime = time.time()

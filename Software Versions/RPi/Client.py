@@ -1,13 +1,14 @@
 #|*****************************************************************************|
 #| Trencher BLDC Motor controls and sensor output
 #| Author: Conor Porter
-#| Last Modified: 02/23/2021
+#| Last Modified: 03/31/2021
 #|*****************************************************************************|
 
 from pynput import keyboard
 from Connections import *
-import traceback
 import sys
+from KeyboardInput import KeyboardInput
+
 
 def ControlMotor(command):# check if the switch is on and button is not pressed. If so, accelerate motor to max speed
     #start recording clock for tracking RPM data
@@ -44,9 +45,9 @@ while not foundPort:
     except:
         port += 1
 
-#start keyboard listener
-listener = keyboard.Listener(on_press=on_press)
-listener.start()  # start to listen on a separate thread
+kb = KeyboardInput(mc)
 
-while True:
-    x = 0
+while (kb.acceptingInput()):
+    message = cs.receive()
+    if (message.type() == 'r'):
+        print(message.contents())
