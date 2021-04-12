@@ -77,7 +77,7 @@ class SocketReader():
         return pickle.loads(message)
 
     def receive(self):
-        msg = self.__recv_timeout(self.__socket, 0.5)
+        msg = self.__recv_timeout(self.__socket, 0.1)
         if (msg != None):
             return self.decode(msg)
         return msg
@@ -108,9 +108,9 @@ class SocketReader():
                     total_data.append(data)
                     #change the beginning time for measurement
                     begin = time.time()
-                else:
-                    #sleep for sometime to indicate a gap
-                    time.sleep(0.1)
+                # else:
+                #     #sleep for sometime to indicate a gap
+                #     time.sleep(0.1)
             except:
                 pass
 

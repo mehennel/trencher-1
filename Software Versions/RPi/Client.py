@@ -12,21 +12,8 @@ from KeyboardInput import KeyboardInput
 
 def ControlMotor(command):# check if the switch is on and button is not pressed. If so, accelerate motor to max speed
     #start recording clock for tracking RPM data
-    message = Message('string', command)
+    message = Message('m', command)
     w.send(message)
-
-
-def on_press(key):
-    # if key == keyboard.Key.esc:
-    #     return False  # stop listener
-    try:
-        k = key.char  # single-char keys
-    except:
-        k = key.name  # other keys
-    if k in ['up', 'down', 'w', 's', 'space', 'esc']:  # keys of interest
-        # self.keys.append(k)  # store it in global-like variable
-        print('Key pressed: ' + k)
-        ControlMotor(k)
 
 host = sys.argv[1]
 port = 3000
@@ -38,16 +25,17 @@ while not foundPort:
         w = SocketWriter(s)
         message = Message('init', 'hello')
         w.send(message)
-        cs = SocketReader(s)
-        message = cs.receive()
+        r = SocketReader(s)
+        message = r.receive()
         if (message.type() == 'init' and message.contents() == 'hello'):
             foundPort = True
     except:
         port += 1
 
-kb = KeyboardInput(mc)
+kb = KeyboardInput(w)
 
 while (kb.acceptingInput()):
-    message = cs.receive()
-    if (message.type() == 'r'):
-        print(message.contents())
+    message = r.receive()
+    if (message != None):
+        if (message.type() == 'r'):
+            print(message.contents())
