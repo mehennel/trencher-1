@@ -4,25 +4,23 @@
 #| Last Modified: 03/31/2021
 #|*****************************************************************************|
 
-# import os
-# os.system ("sudo pigpiod") #Launching GPIO library
+import os
+os.system ("sudo pigpiod") #Launching GPIO library
 from pynput import keyboard
 from Peripherals import *
 from Connections import *
 
 
-# sv = 12 #PWM pin
-# fr = 27 #non-PWM pin
-# brk = 22 #non-PWM pin
+sv = 12 #PWM pin
+fr = 27 #non-PWM pin
+brk = 22 #non-PWM pin
 # rpm = 17 #non-PWM pin
-# pi = pigpio.pi()
+pi = pigpio.pi()
 # speed = 0
-# m = Motor(pi, sv, fr, brk)
+m = Motor(pi, sv, fr, brk)
 # c = CurrentSensor(0)
 # h = HallEffectSensor(pi, rpm, 4)
 port = 3000
-noneCount = 0 #timeout counter
-timeout = 6
 c = None
 r = None
 message = None
@@ -44,8 +42,6 @@ print(f"message received: {message.contents()}")
 w = SocketWriter(c.client())
 w.send(message)
 
-print(f"port found: {port}")
-
 while True:
     # amps = c.measureCurrent(1000)
     # rpms = h.measureRPMs()
@@ -54,8 +50,8 @@ while True:
     # print(message)
     if (message != None):
         print(message.contents())
-        # if (message.type() == "m"):
-        #     ControlMotor(message)
+        if (message.type() == "m"):
+            ControlMotor(message)
         # if (message.type() == "r"):
         #     rpms = h.measureRPMs()
         #     w.send(Message('r', rpms))
