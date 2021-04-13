@@ -1,7 +1,7 @@
 #|*****************************************************************************|
-#| Trencher BLDC Motor controls and sensor output
+#| Trencher Keyboard controller Client
 #| Author: Conor Porter
-#| Last Modified: 03/31/2021
+#| Last Modified: 04/12/2021
 #|*****************************************************************************|
 
 from pynput import keyboard
