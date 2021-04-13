@@ -21,12 +21,12 @@ class Motor():
     def setSpeed(self, speed):
         if speed > 255:
             self.__currSpeed = 255
-        elif speed < 0:
+        elif speed <= 0:
             self.__currSpeed = 0
         else:
             self.__currSpeed = speed
-
-        self.__pi.set_servo_pulsewidth(self.__speed, self.__currSpeed)
+        print(f"speed was set: {self.__currSpeed}")
+        self.__pi.set_PWM_dutycycle(self.__speed, self.__currSpeed)
 
     def speedUp(self, amount):
         self.setSpeed(self.__currSpeed + amount)
@@ -36,12 +36,16 @@ class Motor():
 
     def forward(self):
         self.__pi.write(self.__dir, 0) #may need to swap
+        print(f"direction: {self.__pi.read(self.__dir)}")
 
     def reverse(self):
         self.__pi.write(self.__dir, 1) #may need to swap
+        print(f"direction: {self.__pi.read(self.__dir)}")
 
     def hardStop(self):
-        self.__pi.write(self.__break, 1)
+        curr = self.__pi.read(self.__break)
+        self.__pi.write(self.__break, curr ^ 1)
+        print(f"hard stop: {self.__pi.read(self.__break)}")
 
 class HallEffectSensor():
     __pin = None

@@ -6,10 +6,23 @@
 
 import os
 os.system ("sudo pigpiod") #Launching GPIO library
-from pynput import keyboard
 from Peripherals import *
 from Connections import *
 
+def ControlMotor(command):# check if the switch is on and button is not pressed. If so, accelerate motor to max speed
+    #start recording clock for tracking RPM data
+    if command.contents() == 'up':
+        m.speedUp(5)
+    elif command.contents() == 'down':
+        m.slowDown(5)
+    elif command.contents() == 'w':
+        m.forward()
+    elif command.contents() == 's':
+        m.reverse()
+    elif command.contents() == 'space':
+        m.setSpeed(0)
+    elif command.contents() == 'esc':
+        m.hardStop()
 
 sv = 12 #PWM pin
 fr = 27 #non-PWM pin
@@ -49,7 +62,7 @@ while True:
     message = r.receive()
     # print(message)
     if (message != None):
-        print(message.contents())
+        # print(message.contents())
         if (message.type() == "m"):
             ControlMotor(message)
         # if (message.type() == "r"):
@@ -58,18 +71,3 @@ while True:
         if (message.type() == 's' and message.contents() == "Shutdown"):
             c.close()
             exit(0)
-
-def ControlMotor(command):# check if the switch is on and button is not pressed. If so, accelerate motor to max speed
-    #start recording clock for tracking RPM data
-    if command.contents() == 'up' and speed < 255:
-        m.speedUp(5)
-    elif command.contents() == 'down' and speed > 0:
-        m.slowDown(5)
-    elif command == 'w':
-        m.forward()
-    elif command.contents() == 's':
-        m.reverse()
-    elif command.contents() == 'space':
-        m.setSpeed(0)
-    elif command.contents() == 'esc':
-        m.hardStop()
