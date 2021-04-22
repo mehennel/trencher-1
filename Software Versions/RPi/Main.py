@@ -14,9 +14,9 @@ import threading
 def ControlMotor(command):# check if the switch is on and button is not pressed. If so, accelerate motor to max speed
     #start recording clock for tracking RPM data
     if command.contents() == 'up':
-        m.speedUp(5)
+        m.speedUp(2.55)
     elif command.contents() == 'down':
-        m.slowDown(5)
+        m.slowDown(2.55)
     elif command.contents() == 'w':
         m.forward()
     elif command.contents() == 's':
