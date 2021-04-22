@@ -71,9 +71,9 @@ thread = threading.Thread(target = collectData)
 thread.start()
 
 while True:
-    #amps = curr.read()
+    amps = curr.read()
     #rpms = h.measureRPMs()
-    #print(f"RPM: {rpms}")
+    print(f"Amps: {amps}")
 
     message = r.receive()
     # print(message)
