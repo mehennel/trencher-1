@@ -1,0 +1,2286 @@
+speed was set: 0.0
+speed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.13725490196078433
+speed was set: 0.1568627450980392
+speed was set: 0.17647058823529413
+speed was set: 0.19607843137254902
+speed was set: 0.21568627450980393
+speed was set: 0.23529411764705882
+speed was set: 0.2549019607843137
+speed was set: 0.27450980392156865
+speed was set: 0.29411764705882354
+speed was set: 0.3137254901960784
+RPM: 0.7672015980586316
+speed was set: 0.3333333333333333
+speed was set: 0.35294117647058826
+speed was set: 0.37254901960784315
+speed was set: 0.39215686274509803
+speed was set: 0.4117647058823529
+speed was set: 0.43137254901960786
+speed was set: 0.45098039215686275
+speed was set: 0.47058823529411764
+RPM: 9.743079552456337
+speed was set: 0.49019607843137253
+speed was set: 0.5098039215686274
+speed was set: 0.5294117647058824
+speed was set: 0.5490196078431373
+speed was set: 0.5686274509803921
+speed was set: 0.5882352941176471
+RPM: 13.455332911944534
+speed was set: 0.6078431372549019
+speed was set: 0.6274509803921569
+speed was set: 0.6470588235294118
+speed was set: 0.6666666666666666
+RPM: 16.428194624353704
+speed was set: 0.6862745098039216
+speed was set: 0.7058823529411765
+speed was set: 0.7254901960784313
+speed was set: 0.7450980392156863
+RPM: 18.957910297254667
+speed was set: 0.7647058823529411
+speed was set: 0.7843137254901961
+speed was set: 0.803921568627451
+RPM: 21.21722787551472
+RPM: 21.589877480062942
+RPM: 21.634768070242735
+RPM: 21.678616865971613
+RPM: 21.739815966151788
+RPM: 21.61680876257378
+RPM: 21.612759776179352
+RPM: 21.665576751225508
+RPM: 21.70457951201354
+RPM: 21.66132862012946
+RPM: 21.608166821091523
+speed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.13725490196078433
+speed was set: 0.1568627450980392
+speed was set: 0.17647058823529413
+speed was set: 0.19607843137254902
+speed was set: 0.21568627450980393
+speed was set: 0.23529411764705882
+speed was set: 0.2549019607843137
+speed was set: 0.27450980392156865
+speed was set: 0.29411764705882354
+speed was set: 0.3137254901960784
+speed was set: 0.3333333333333333
+speed was set: 0.35294117647058826
+speed was set: 0.37254901960784315
+speed was set: 0.39215686274509803
+speed was set: 0.4117647058823529
+speed was set: 0.43137254901960786
+RPM: 0.2626920675952273
+speed was set: 0.45098039215686275
+speed was set: 0.47058823529411764
+speed was set: 0.49019607843137253
+speed was set: 0.5098039215686274
+speed was set: 0.5294117647058824
+speed was set: 0.5490196078431373
+speed was set: 0.5686274509803921
+speed was set: 0.5882352941176471
+speed was set: 0.6078431372549019
+speed was set: 0.6274509803921569
+speed was set: 0.6470588235294118
+RPM: 14.505388778666656
+speed was set: 0.6666666666666666
+speed was set: 0.6862745098039216
+speed was set: 0.7058823529411765
+speed was set: 0.7254901960784313
+speed was set: 0.7450980392156863
+RPM: 18.93100958066535
+speed was set: 0.7647058823529411
+speed was set: 0.7843137254901961
+speed was set: 0.803921568627451
+RPM: 21.888565149552758
+RPM: 22.241451263518762
+RPM: 22.297061739530292
+RPM: 22.586678308021046
+RPM: 22.611475687192495
+RPM: 22.39858020881219
+RPM: 22.312345047765827
+RPM: 22.502930695031203
+RPM: 22.54951232284002
+RPM: 22.215695199165815
+RPM: 22.321494207688737
+RPM: 22.52844184199902
+RPM: 22.567444543206477
+RPM: 22.273098633096946
+RPM: 22.383419467912
+RPM: 22.599822116980356
+RPM: 22.082245929111334
+hard stop: 0
+
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ ls
+Client.py       KeyboardInput.py  Main.py         __pycache__
+Connections.py  library_test.py   Peripherals.py  sensor_output.txt
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ vim sensor_output.txt
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ vim sensor_output.txt
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ git add -A
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ git commit
+[master 18ba005] mid test backup
+ 5 files changed, 219 insertions(+), 15 deletions(-)
+ create mode 100644 Software Versions/RPi/__pycache__/Connections.cpython-37.pyc
+ create mode 100644 Software Versions/RPi/__pycache__/Peripherals.cpython-37.pyc
+ create mode 100644 Software Versions/RPi/sensor_output.txt
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ git push origin
+Username for 'https://github.com': cdporter
+Password for 'https://cdporter@github.com':
+To https://github.com/Mining-Innovation-Enterprise/trencher.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Mining-Innovation-Enterprise/trencher.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ git pull
+Username for 'https://github.com': cdporter
+Password for 'https://cdporter@github.com':
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 7 (delta 4), reused 7 (delta 4), pack-reused 0
+Unpacking objects: 100% (7/7), done.
+From https://github.com/Mining-Innovation-Enterprise/trencher
+   bd5bc03..f88dff7  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ Software Versions/RPi/KeyboardInput.py                         |   1 +
+ Software Versions/RPi/__pycache__/KeyboardInput.cpython-38.pyc | Bin 2339 -> 2370 bytes
+ 2 files changed, 1 insertion(+)
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ git push origin
+Username for 'https://github.com': cdporter
+Password for 'https://cdporter@github.com':
+Enumerating objects: 27, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (15/15), 6.34 KiB | 463.00 KiB/s, done.
+Total 15 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), completed with 4 local objects.
+To https://github.com/Mining-Innovation-Enterprise/trencher.git
+   f88dff7..6a944b0  master -> master
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ python3 Main.py
+2021-04-22 21:11:51 initInitialise: Can't lock /var/run/pigpio.pid
+Can't initialise pigpio library
+listening on port 3000
+message received: hello
+direction: 0
+speed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.13725490196078433
+speed was set: 0.1568627450980392
+speed was set: 0.17647058823529413
+speed was set: 0.19607843137254902
+speed was set: 0.21568627450980393
+speed was set: 0.23529411764705882
+speed was set: 0.21568627450980393
+speed was set: 0.19607843137254902
+speed was set: 0.17647058823529413
+speed was set: 0.1568627450980392
+speed was set: 0.13725490196078433
+speed was set: 0.11764705882352941
+speed was set: 0.09803921568627451
+speed was set: 0.0784313725490196
+speed was set: 0.058823529411764705
+hard stop: 1
+speed was set: 0.0784313725490196
+speed was set: 0.09803921568627451
+hard stop: 0
+hard stop: 1
+hard stop: 0
+hard stop: 1
+RPM: 0.18837737454387818
+speed was set: 0.11764705882352941
+speed was set: 0.13725490196078433
+speed was set: 0.1568627450980392
+speed was set: 0.17647058823529413
+speed was set: 0.19607843137254902
+RPM: 2.421422388828503
+speed was set: 0.0
+direction: 1
+speed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+speed was set: 0.09803921568627451
+speed was set: 0.0784313725490196
+speed was set: 0.058823529411764705
+speed was set: 0.0392156862745098
+speed was set: 0.0196078431372549
+hard stop: 0
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.13725490196078433
+speed was set: 0.1568627450980392
+speed was set: 0.17647058823529413
+speed was set: 0.19607843137254902
+speed was set: 0.21568627450980393
+speed was set: 0.23529411764705882
+speed was set: 0.2549019607843137
+speed was set: 0.27450980392156865
+speed was set: 0.29411764705882354
+speed was set: 0.3137254901960784
+speed was set: 0.3333333333333333
+speed was set: 0.35294117647058826
+speed was set: 0.3333333333333333
+speed was set: 0.3137254901960784
+speed was set: 0.29411764705882354
+speed was set: 0.27450980392156865
+speed was set: 0.2549019607843137
+speed was set: 0.23529411764705882
+speed was set: 0.21568627450980393
+speed was set: 0.19607843137254902
+speed was set: 0.17647058823529413
+hard stop: 1
+hard stop: 0
+direction: 1
+hard stop: 1
+hard stop: 0
+direction: 0
+hard stop: 1
+hard stop: 0
+direction: 1
+speed was set: 0.19607843137254902
+speed was set: 0.21568627450980393
+speed was set: 0.23529411764705882
+speed was set: 0.2549019607843137
+speed was set: 0.27450980392156865
+speed was set: 0.29411764705882354
+speed was set: 0.3137254901960784
+speed was set: 0.3333333333333333
+speed was set: 0.35294117647058826
+speed was set: 0.37254901960784315
+speed was set: 0.39215686274509803
+speed was set: 0.4117647058823529
+speed was set: 0.43137254901960786
+speed was set: 0.45098039215686275
+speed was set: 0.47058823529411764
+speed was set: 0.49019607843137253
+speed was set: 0.5098039215686274
+speed was set: 0.5294117647058824
+speed was set: 0.5490196078431373
+speed was set: 0.5686274509803921
+speed was set: 0.5882352941176471
+speed was set: 0.6078431372549019
+speed was set: 0.6274509803921569
+speed was set: 0.6470588235294118
+speed was set: 0.6666666666666666
+speed was set: 0.6862745098039216
+speed was set: 0.7058823529411765
+speed was set: 0.7254901960784313
+speed was set: 0.7450980392156863
+speed was set: 0.7647058823529411
+speed was set: 0.7843137254901961
+speed was set: 0.803921568627451
+hard stop: 1
+RPM: 0.14211255015577942
+RPM: 21.952812550404108
+RPM: 22.202708279993583
+RPM: 22.345849322249894
+RPM: 22.13333178541406
+hard stop: 0
+RPM: 0.07525244245439705
+hard stop: 1
+RPM: 0.16932325447744992
+RPM: 21.546628236469004
+speed was set: 0.8235294117647058
+speed was set: 0.803921568627451
+RPM: 21.735839044148435
+RPM: 21.7875547051872
+RPM: 21.951372563523222
+RPM: 21.966198910620445
+RPM: 21.32165895290995
+RPM: 21.1625098881985
+RPM: 20.7951786182488
+hard stop: 0
+speed was set: 0.7843137254901961
+speed was set: 0.7647058823529411
+speed was set: 0.7450980392156863
+speed was set: 0.7254901960784313
+speed was set: 0.7058823529411765
+speed was set: 0.6862745098039216
+speed was set: 0.6666666666666666
+speed was set: 0.6470588235294118
+speed was set: 0.6274509803921569
+speed was set: 0.6078431372549019
+speed was set: 0.5882352941176471
+speed was set: 0.5686274509803921
+speed was set: 0.5490196078431373
+speed was set: 0.5294117647058824
+speed was set: 0.5098039215686274
+hard stop: 1
+RPM: 0.37291395150287565
+hard stop: 0
+speed was set: 0.5294117647058824
+speed was set: 0.5490196078431373
+speed was set: 0.5686274509803921
+speed was set: 0.5882352941176471
+speed was set: 0.6078431372549019
+speed was set: 0.6274509803921569
+speed was set: 0.6470588235294118
+speed was set: 0.6666666666666666
+speed was set: 0.6862745098039216
+speed was set: 0.7058823529411765
+speed was set: 0.7254901960784313
+speed was set: 0.7450980392156863
+speed was set: 0.7647058823529411
+speed was set: 0.7843137254901961
+speed was set: 0.803921568627451
+speed was set: 0.8235294117647058
+speed was set: 0.8431372549019608
+speed was set: 0.8235294117647058
+speed was set: 0.803921568627451
+direction: 0
+speed was set: 0.0
+hard stop: 1
+speed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+speed was set: 0.09803921568627451
+RPM: 0.1662761649195597
+speed was set: 0.0784313725490196
+hard stop: 0
+hard stop: 1
+hard stop: 0
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ ls -l -h
+total 36K
+-rw-r--r-- 1 pi pi 1.2K Apr 14 21:08 Client.py
+-rw-r--r-- 1 pi pi 3.6K Apr 14 21:08 Connections.py
+-rw-r--r-- 1 pi pi 2.6K Apr 22 21:07 KeyboardInput.py
+-rw-r--r-- 1 pi pi  753 Apr 14 21:08 library_test.py
+-rw-r--r-- 1 pi pi 2.4K Apr 22 20:50 Main.py
+-rw-r--r-- 1 pi pi 3.4K Apr 22 20:54 Peripherals.py
+drwxr-xr-x 2 pi pi 4.0K Apr 22 21:07 __pycache__
+-rw-r--r-- 1 pi pi 7.0K Apr 22 21:53 sensor_output.txt
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ vim sensor_output.txt
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ python3 Main.py
+2021-04-22 21:54:59 initInitialise: Can't lock /var/run/pigpio.pid
+Can't initialise pigpio library
+listening on port 3000
+message received: hello
+direction: 0
+direction: 1
+speed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+speed was set: 0.058823529411764705
+speed was set: 0.0392156862745098
+speed was set: 0.0196078431372549
+speed was set: 0.0
+speed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+hard stop: 1
+hard stop: 0
+hard stop: 1
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.13725490196078433
+RPM: 1.24950709018557
+speed was set: 0.0
+direction: 0
+speed was set: 0.0
+speed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.13725490196078433
+speed was set: 0.1568627450980392
+speed was set: 0.17647058823529413
+RPM: 1.0453991930181268
+speed was set: 0.0
+direction: 1
+speed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.13725490196078433
+speed was set: 0.1568627450980392
+speed was set: 0.17647058823529413
+speed was set: 0.1568627450980392
+speed was set: 0.13725490196078433
+speed was set: 0.0
+hard stop: 0
+speed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.13725490196078433
+speed was set: 0.1568627450980392
+speed was set: 0.17647058823529413
+speed was set: 0.19607843137254902
+speed was set: 0.21568627450980393
+speed was set: 0.23529411764705882
+speed was set: 0.2549019607843137
+speed was set: 0.27450980392156865
+speed was set: 0.29411764705882354
+speed was set: 0.3137254901960784
+speed was set: 0.3333333333333333
+speed was set: 0.35294117647058826
+speed was set: 0.37254901960784315
+speed was set: 0.39215686274509803
+speed was set: 0.4117647058823529
+speed was set: 0.43137254901960786
+speed was set: 0.45098039215686275
+speed was set: 0.47058823529411764
+speed was set: 0.49019607843137253
+speed was set: 0.5098039215686274
+speed was set: 0.5294117647058824
+speed was set: 0.5490196078431373
+speed was set: 0.5686274509803921
+speed was set: 0.5882352941176471
+speed was set: 0.6078431372549019
+speed was set: 0.6274509803921569
+speed was set: 0.6470588235294118
+speed was set: 0.6666666666666666
+speed was set: 0.6862745098039216
+speed was set: 0.7058823529411765
+speed was set: 0.7254901960784313
+speed was set: 0.7450980392156863
+speed was set: 0.7647058823529411
+speed was set: 0.7843137254901961
+speed was set: 0.803921568627451
+speed was set: 0.7843137254901961
+speed was set: 0.803921568627451
+hard stop: 1
+RPM: 1.4916320492717383
+RPM: 20.555238731091066
+RPM: 21.54353865241424
+hard stop: 0
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ ls -l -h
+total 36K
+-rw-r--r-- 1 pi pi 1.2K Apr 14 21:08 Client.py
+-rw-r--r-- 1 pi pi 3.6K Apr 14 21:08 Connections.py
+-rw-r--r-- 1 pi pi 2.6K Apr 22 21:07 KeyboardInput.py
+-rw-r--r-- 1 pi pi  753 Apr 14 21:08 library_test.py
+-rw-r--r-- 1 pi pi 2.4K Apr 22 20:50 Main.py
+-rw-r--r-- 1 pi pi 3.4K Apr 22 20:54 Peripherals.py
+drwxr-xr-x 2 pi pi 4.0K Apr 22 21:07 __pycache__
+-rw-r--r-- 1 pi pi 7.6K Apr 22 21:59 sensor_output.txt
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ vim sensor_output.txt
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ git add -A
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ git commit
+[master 41a564e] mid test backup
+ 1 file changed, 120 insertions(+)
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ git push origin
+Username for 'https://github.com': cdporter
+Password for 'https://cdporter@github.com':
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.12 KiB | 286.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mining-Innovation-Enterprise/trencher.git
+   6a944b0..41a564e  master -> master
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ python3 Main.py
+2021-04-22 22:00:24 initInitialise: Can't lock /var/run/pigpio.pid
+Can't initialise pigpio library
+listening on port 3000
+message received: hello
+
+direction: 1
+^[[Aspeed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.13725490196078433
+speed was set: 0.1568627450980392
+speed was set: 0.17647058823529413
+speed was set: 0.19607843137254902
+speed was set: 0.21568627450980393
+speed was set: 0.23529411764705882
+speed was set: 0.2549019607843137
+speed was set: 0.27450980392156865
+speed was set: 0.29411764705882354
+speed was set: 0.3137254901960784
+speed was set: 0.3333333333333333
+speed was set: 0.35294117647058826
+speed was set: 0.37254901960784315
+speed was set: 0.39215686274509803
+speed was set: 0.4117647058823529
+speed was set: 0.43137254901960786
+speed was set: 0.45098039215686275
+speed was set: 0.47058823529411764
+speed was set: 0.49019607843137253
+speed was set: 0.5098039215686274
+speed was set: 0.5294117647058824
+speed was set: 0.5490196078431373
+speed was set: 0.5686274509803921
+speed was set: 0.5882352941176471
+speed was set: 0.6078431372549019
+speed was set: 0.6274509803921569
+speed was set: 0.6470588235294118
+speed was set: 0.6666666666666666
+speed was set: 0.6862745098039216
+speed was set: 0.7058823529411765
+speed was set: 0.7254901960784313
+speed was set: 0.7450980392156863
+speed was set: 0.7647058823529411
+speed was set: 0.7843137254901961
+speed was set: 0.803921568627451
+speed was set: 0.7843137254901961
+speed was set: 0.803921568627451
+direction: 1
+hard stop: 1
+RPM: 0.42647657344544826
+RPM: 21.55505300622117
+RPM: 21.401734091756815
+RPM: 21.843107308335068
+RPM: 22.043638054351096
+RPM: 22.033779527931333
+RPM: 21.782917333484292
+RPM: 22.055476844567135
+RPM: 22.118698948040468
+RPM: 21.887263021494913
+RPM: 21.521161497495406
+RPM: 21.58746988125436
+RPM: 21.552474124175184
+RPM: 21.214729191236536
+RPM: 21.004318242936343
+RPM: 21.3369743626397
+RPM: 21.329769475671
+RPM: 21.38932481131434
+RPM: 21.51103467552438
+RPM: 21.963099012674732
+RPM: 22.08215485993756
+RPM: 22.012394413504573
+RPM: 22.046523167320668
+RPM: 22.361360549827104
+RPM: 22.385770925940882
+RPM: 22.192585652727256
+RPM: 21.972130838379815
+RPM: 21.757895678780457
+RPM: 21.28001459829696
+RPM: 20.917651817157864
+RPM: 20.874680617060736
+RPM: 21.056042463790064
+RPM: 21.03518298129288
+hard stop: 0
+speed was set: 0.8235294117647058
+speed was set: 0.803921568627451
+hard stop: 1
+RPM: 0.10281007586724594
+hard stop: 0
+direction: 0
+speed was set: 0.0
+speed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+hard stop: 1
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.13725490196078433
+speed was set: 0.1568627450980392
+speed was set: 0.13725490196078433
+RPM: 0.350225660128912
+speed was set: 0.11764705882352941
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.09803921568627451
+RPM: 1.755714511875162
+speed was set: 0.11764705882352941
+speed was set: 0.09803921568627451
+hard stop: 0
+speed was set: 0.0
+direction: 1
+speed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.13725490196078433
+speed was set: 0.1568627450980392
+speed was set: 0.17647058823529413
+speed was set: 0.19607843137254902
+speed was set: 0.21568627450980393
+speed was set: 0.23529411764705882
+speed was set: 0.2549019607843137
+speed was set: 0.27450980392156865
+speed was set: 0.29411764705882354
+speed was set: 0.3137254901960784
+speed was set: 0.3333333333333333
+speed was set: 0.35294117647058826
+speed was set: 0.37254901960784315
+speed was set: 0.39215686274509803
+speed was set: 0.4117647058823529
+speed was set: 0.43137254901960786
+speed was set: 0.45098039215686275
+speed was set: 0.47058823529411764
+speed was set: 0.49019607843137253
+speed was set: 0.5098039215686274
+speed was set: 0.5294117647058824
+speed was set: 0.5490196078431373
+speed was set: 0.5686274509803921
+speed was set: 0.5882352941176471
+speed was set: 0.6078431372549019
+speed was set: 0.6274509803921569
+speed was set: 0.6470588235294118
+speed was set: 0.6666666666666666
+speed was set: 0.6862745098039216
+speed was set: 0.7058823529411765
+speed was set: 0.7254901960784313
+speed was set: 0.7450980392156863
+speed was set: 0.7647058823529411
+speed was set: 0.7843137254901961
+speed was set: 0.803921568627451
+speed was set: 0.7843137254901961
+speed was set: 0.803921568627451
+direction: 1
+hard stop: 1
+RPM: 0.1283926311546634
+RPM: 21.899584230448657
+RPM: 21.95442318506593
+RPM: 22.199130041359687
+RPM: 22.213400901994312
+RPM: 21.910013519076106
+RPM: 21.481917836680797
+RPM: 20.263173489921645
+hard stop: 0
+speed was set: 0.8235294117647058
+speed was set: 0.803921568627451
+direction: 1
+hard stop: 1
+RPM: 0.2002940935735088
+hard stop: 0
+speed was set: 0.0
+direction: 0
+speed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+hard stop: 1
+speed was set: 0.0784313725490196
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.13725490196078433
+speed was set: 0.1568627450980392
+speed was set: 0.17647058823529413
+speed was set: 0.19607843137254902
+speed was set: 0.21568627450980393
+speed was set: 0.0
+direction: 0
+speed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+hard stop: 0
+hard stop: 1
+hard stop: 0
+hard stop: 1
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.13725490196078433
+RPM: 0.3574560889516054
+RPM: 2.5694156233426395
+speed was set: 0.0
+direction: 1
+sdirection: 1
+speed was set: 0.0
+hard stop: 0
+hard stop: 1
+hard stop: 0
+hard stop: 1
+hard stop: 0
+hard stop: 1
+speed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.13725490196078433
+speed was set: 0.1568627450980392
+speed was set: 0.17647058823529413
+speed was set: 0.19607843137254902
+speed was set: 0.21568627450980393
+speed was set: 0.23529411764705882
+speed was set: 0.2549019607843137
+speed was set: 0.27450980392156865
+RPM: 0.11905358544268392
+speed was set: 0.29411764705882354
+speed was set: 0.3137254901960784
+speed was set: 0.29411764705882354
+speed was set: 0.27450980392156865
+speed was set: 0.2549019607843137
+speed was set: 0.23529411764705882
+speed was set: 0.21568627450980393
+hard stop: 0
+speed was set: 0.23529411764705882
+speed was set: 0.2549019607843137
+speed was set: 0.27450980392156865
+speed was set: 0.29411764705882354
+speed was set: 0.3137254901960784
+speed was set: 0.3333333333333333
+speed was set: 0.35294117647058826
+speed was set: 0.37254901960784315
+speed was set: 0.39215686274509803
+speed was set: 0.4117647058823529
+speed was set: 0.43137254901960786
+speed was set: 0.45098039215686275
+speed was set: 0.47058823529411764
+speed was set: 0.49019607843137253
+speed was set: 0.5098039215686274
+speed was set: 0.5294117647058824
+speed was set: 0.5490196078431373
+speed was set: 0.5686274509803921
+speed was set: 0.5882352941176471
+speed was set: 0.6078431372549019
+speed was set: 0.6274509803921569
+speed was set: 0.6470588235294118
+speed was set: 0.6666666666666666
+speed was set: 0.6862745098039216
+speed was set: 0.7058823529411765
+speed was set: 0.7254901960784313
+speed was set: 0.7450980392156863
+speed was set: 0.7647058823529411
+speed was set: 0.7843137254901961
+speed was set: 0.803921568627451
+hard stop: 1
+RPM: 2.688678701011453
+RPM: 20.440268894649357
+RPM: 20.953475565292354
+RPM: 21.176464054413273
+RPM: 21.150219971053765
+RPM: 20.9445015929451
+RPM: 21.090342992419288
+RPM: 21.06452690780694
+RPM: 20.977734653891215
+RPM: 20.54879699776106
+RPM: 20.61321255060679
+RPM: 20.581822065853295
+RPM: 20.488520209820326
+RPM: 20.330371247163818
+RPM: 20.999552652828807
+RPM: 21.311321924309134
+RPM: 21.505904081082765
+RPM: 21.076939827369895
+RPM: 21.616959166802385
+RPM: 21.73443676574188
+RPM: 21.804370643275885
+RPM: 21.412312071953902
+RPM: 21.825145074139755
+RPM: 21.865448787000403
+RPM: 21.86981537665776
+RPM: 21.443094752880793
+RPM: 21.812833725861918
+RPM: 21.883382304475578
+RPM: 21.902548036289588
+RPM: 21.455994569376987
+RPM: 21.491172980813918
+RPM: 21.139425169263163
+RPM: 20.831476924462482
+RPM: 20.596692802426116
+RPM: 20.780068038147537
+RPM: 20.675612358887303
+hard stop: 0
+speed was set: 0.8235294117647058
+speed was set: 0.803921568627451
+^[[3~pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ python3 Main.py
+2021-04-22 22:54:50 initInitialise: Can't lock /var/run/pigpio.pid
+Can't initialise pigpio library
+listening on port 3001
+message received: hello
+speed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.13725490196078433
+speed was set: 0.1568627450980392
+speed was set: 0.17647058823529413
+speed was set: 0.19607843137254902
+hard stop: 1
+hard stop: 0
+speed was set: 0.21568627450980393
+speed was set: 0.23529411764705882
+speed was set: 0.2549019607843137
+speed was set: 0.27450980392156865
+speed was set: 0.29411764705882354
+speed was set: 0.3137254901960784
+speed was set: 0.3333333333333333
+speed was set: 0.35294117647058826
+speed was set: 0.37254901960784315
+speed was set: 0.39215686274509803
+speed was set: 0.4117647058823529
+speed was set: 0.43137254901960786
+speed was set: 0.45098039215686275
+speed was set: 0.47058823529411764
+speed was set: 0.49019607843137253
+speed was set: 0.5098039215686274
+speed was set: 0.5294117647058824
+speed was set: 0.5490196078431373
+speed was set: 0.5686274509803921
+speed was set: 0.5882352941176471
+speed was set: 0.6078431372549019
+speed was set: 0.6274509803921569
+speed was set: 0.6470588235294118
+speed was set: 0.6666666666666666
+speed was set: 0.6862745098039216
+speed was set: 0.7058823529411765
+speed was set: 0.7254901960784313
+direction: 1
+speed was set: 0.7450980392156863
+speed was set: 0.7647058823529411
+speed was set: 0.7843137254901961
+speed was set: 0.803921568627451
+speed was set: 0.8235294117647058
+speed was set: 0.803921568627451
+hard stop: 1
+RPM: 0.85005009726886
+hard stop: 0
+speed was set: 0.0
+direction: 0
+speed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.13725490196078433
+speed was set: 0.1568627450980392
+hard stop: 1
+speed was set: 0.17647058823529413
+speed was set: 0.19607843137254902
+hard stop: 0
+hard stop: 1
+RPM: 0.8151388783385152
+RPM: 4.0579099369889216
+hard stop: 0
+speed was set: 0.0
+speed was set: 0.0196078431372549
+speed was set: 0.0392156862745098
+speed was set: 0.058823529411764705
+speed was set: 0.0784313725490196
+speed was set: 0.09803921568627451
+speed was set: 0.11764705882352941
+speed was set: 0.13725490196078433
+speed was set: 0.1568627450980392
+speed was set: 0.17647058823529413
+speed was set: 0.19607843137254902
+speed was set: 0.21568627450980393
+speed was set: 0.19607843137254902
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ vim Peripherals.py
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ vim Main.py
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ python3 Main.py
+2021-04-22 23:06:11 initInitialise: Can't lock /var/run/pigpio.pid
+Can't initialise pigpio library
+listening on port 3000
+message received: hello
+direction: 1
+speed was set: 0.009999999999999998
+speed was set: 0.019999999999999997
+speed was set: 0.03
+speed was set: 0.039999999999999994
+speed was set: 0.05
+speed was set: 0.060000000000000005
+speed was set: 0.07
+speed was set: 0.08
+speed was set: 0.09000000000000001
+speed was set: 0.10000000000000002
+speed was set: 0.11000000000000001
+speed was set: 0.12000000000000002
+speed was set: 0.13000000000000003
+speed was set: 0.14
+speed was set: 0.15
+speed was set: 0.15999999999999998
+speed was set: 0.16999999999999998
+speed was set: 0.17999999999999997
+speed was set: 0.18999999999999995
+speed was set: 0.19999999999999996
+speed was set: 0.20999999999999994
+speed was set: 0.19999999999999996
+hard stop: 1
+RPM: 2.8853760138686133
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ git add -A
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ git commit
+[master 355218f] mid test backup
+ 2 files changed, 442 insertions(+), 2 deletions(-)
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ git push origin
+Username for 'https://github.com': cdporter
+Password for 'https://cdporter@github.com':
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 4.41 KiB | 644.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mining-Innovation-Enterprise/trencher.git
+   41a564e..355218f  master -> master
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ python3 Main.py
+2021-04-22 23:07:25 initInitialise: Can't lock /var/run/pigpio.pid
+Can't initialise pigpio library
+listening on port 3001
+message received: hello
+speed was set: 0.009999999999999998
+speed was set: 0.019999999999999997
+speed was set: 0.03
+speed was set: 0.039999999999999994
+speed was set: 0.05
+speed was set: 0.060000000000000005
+speed was set: 0.07
+speed was set: 0.08
+speed was set: 0.09000000000000001
+speed was set: 0.10000000000000002
+speed was set: 0.11000000000000001
+speed was set: 0.12000000000000002
+speed was set: 0.13000000000000003
+speed was set: 0.14
+speed was set: 0.15
+speed was set: 0.15999999999999998
+speed was set: 0.16999999999999998
+speed was set: 0.17999999999999997
+speed was set: 0.18999999999999995
+speed was set: 0.19999999999999996
+hard stop: 0
+hard stop: 1
+RPM: 1.3502966606306563
+RPM: 3.8876962959724537
+RPM: 3.0698825979439497
+RPM: 2.7074178614982447
+speed was set: 0.20999999999999994
+speed was set: 0.21999999999999992
+speed was set: 0.2299999999999999
+speed was set: 0.2399999999999999
+speed was set: 0.2499999999999999
+speed was set: 0.2599999999999999
+speed was set: 0.26999999999999985
+speed was set: 0.27999999999999986
+speed was set: 0.28999999999999987
+speed was set: 0.2999999999999998
+RPM: 3.461933045174388
+speed was set: 0.30999999999999983
+speed was set: 0.3199999999999998
+speed was set: 0.3299999999999998
+speed was set: 0.3399999999999998
+speed was set: 0.34999999999999976
+speed was set: 0.35999999999999976
+speed was set: 0.3699999999999998
+speed was set: 0.3799999999999997
+speed was set: 0.38999999999999974
+speed was set: 0.39999999999999974
+hard stop: 0
+hard stop: 1
+RPM: 2.0117714474154873
+RPM: 8.553806815649967
+RPM: 9.097708905694788
+speed was set: 0.4099999999999997
+speed was set: 0.4199999999999997
+speed was set: 0.42999999999999966
+RPM: 8.921952823009851
+speed was set: 0.43999999999999967
+speed was set: 0.4499999999999997
+speed was set: 0.45999999999999963
+speed was set: 0.46999999999999964
+speed was set: 0.47999999999999965
+speed was set: 0.4899999999999996
+speed was set: 0.4999999999999996
+RPM: 10.9364264379159
+RPM: 11.46800254078686
+RPM: 11.332619759668065
+RPM: 11.291118808472195
+RPM: 11.201377254706882
+speed was set: 0.5099999999999996
+speed was set: 0.5199999999999997
+speed was set: 0.5299999999999997
+speed was set: 0.5399999999999997
+speed was set: 0.5499999999999998
+RPM: 12.012183148172458
+RPM: 12.45556752319956
+RPM: 11.912385839034547
+RPM: 11.646795026358891
+RPM: 12.035706210020189
+RPM: 12.394899959957387
+RPM: 11.911550791953745
+hard stop: 0
+hard stop: 1
+hard stop: 0
+hard stop: 1
+RPM: 2.4934992545459145
+RPM: 10.841995911411063
+RPM: 11.717990701160371
+speed was set: 0.5599999999999998
+speed was set: 0.5699999999999998
+speed was set: 0.58
+speed was set: 0.59
+speed was set: 0.6
+RPM: 12.244632000644593
+RPM: 13.20333748876389
+RPM: 12.311512704903656
+RPM: 13.226886096666897
+RPM: 13.486343976415721
+RPM: 14.369940564697046
+RPM: 14.723557511585536
+RPM: 14.92383400875333
+RPM: 14.55089930459791
+RPM: 14.655371287046549
+RPM: 14.296558229795803
+RPM: 14.413458734241361
+RPM: 13.40182445233918
+RPM: 13.516092055080689
+RPM: 14.157335872963152
+RPM: 14.871662317889413
+RPM: 14.49117348576946
+RPM: 14.778747113349777
+RPM: 14.786562243013673
+RPM: 14.999442121274251
+RPM: 14.210041305738354
+RPM: 14.606640919810397
+RPM: 14.427636035999054
+RPM: 14.727096209001465
+RPM: 14.316385805800959
+RPM: 14.784974234508274
+RPM: 14.64212649428874
+RPM: 14.83732393083233
+RPM: 14.385213867658079
+RPM: 14.837449025760128
+RPM: 14.631634144493717
+RPM: 14.8794766379763
+RPM: 14.58311786296664
+RPM: 14.962071365405876
+RPM: 14.892267896529082
+RPM: 14.792609874074428
+RPM: 14.700620980864116
+RPM: 15.228018879341645
+^ARPM: 15.147316295221971
+RPM: 15.164025517149248
+RPM: 14.992006808465618
+RPM: 15.396682709323636
+RPM: 15.223956332601551
+RPM: 15.165740782255416
+^[hard stop: 0
+direction: 1
+ speed was set: 0.0
+^[hard stop: 1
+^[hard stop: 0
+sdirection: 1
+^[[3~pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ git add -A
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ git commit
+[master 98d8a64] mid test backup
+ 1 file changed, 340 insertions(+)
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ ls -l -h
+total 56K
+-rw-r--r-- 1 pi pi 1.2K Apr 14 21:08 Client.py
+-rw-r--r-- 1 pi pi 3.6K Apr 14 21:08 Connections.py
+-rw-r--r-- 1 pi pi 2.6K Apr 22 21:07 KeyboardInput.py
+-rw-r--r-- 1 pi pi  753 Apr 14 21:08 library_test.py
+-rw-r--r-- 1 pi pi 2.4K Apr 22 23:06 Main.py
+-rw-r--r-- 1 pi pi 3.4K Apr 22 20:54 Peripherals.py
+drwxr-xr-x 2 pi pi 4.0K Apr 22 21:07 __pycache__
+-rw-r--r-- 1 pi pi  28K Apr 22 23:17 sensor_output.txt
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ client_loop: send disconnect: Broken pipe
+(base) fredrickson@Water-Melon:~$ vim Mai
+(base) fredrickson@Water-Melon:~$ ssh pi@10.42.0.62
+pi@10.42.0.62's password:
+Linux raspberrypi 5.10.17-v7l+ #1403 SMP Mon Feb 22 11:33:35 GMT 2021 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Apr 22 23:19:19 2021
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+pi@raspberrypi:~ $ cd Trencher/trencher/Software\ Versions/RPi/
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ vim Main.py
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $ python3 Main.py
+listening on port 3000
+message received: hello
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.009999999999999998
+Amps: 1023
+speed was set: 0.019999999999999997
+Amps: 1023
+speed was set: 0.03
+Amps: 1023
+speed was set: 0.039999999999999994
+Amps: 1023
+speed was set: 0.05
+Amps: 1023
+speed was set: 0.060000000000000005
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.07
+Amps: 1023
+speed was set: 0.08
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.09000000000000001
+Amps: 1023
+speed was set: 0.10000000000000002
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.11000000000000001
+Amps: 1023
+speed was set: 0.12000000000000002
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.13000000000000003
+Amps: 1023
+Amps: 1023
+speed was set: 0.14
+Amps: 1023
+speed was set: 0.15
+Amps: 1023
+speed was set: 0.15999999999999998
+Amps: 1023
+speed was set: 0.16999999999999998
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+hard stop: 1
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+hard stop: 0
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+hard stop: 1
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+hard stop: 0
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+hard stop: 1
+Amps: 1023
+Amps: 1023
+hard stop: 0
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+hard stop: 1
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.17999999999999997
+Amps: 1023
+Amps: 1023
+speed was set: 0.18999999999999995
+Amps: 1023
+speed was set: 0.19999999999999996
+Amps: 1023
+speed was set: 0.20999999999999994
+Amps: 1023
+Amps: 1023
+speed was set: 0.21999999999999992
+Amps: 1023
+speed was set: 0.2299999999999999
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.2399999999999999
+Amps: 1023
+speed was set: 0.2499999999999999
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.2599999999999999
+Amps: 1023
+speed was set: 0.26999999999999985
+Amps: 1023
+speed was set: 0.27999999999999986
+Amps: 1023
+speed was set: 0.28999999999999987
+Amps: 1023
+speed was set: 0.2999999999999998
+Amps: 1023
+Amps: 1023
+speed was set: 0.30999999999999983
+Amps: 1023
+speed was set: 0.3199999999999998
+Amps: 1023
+speed was set: 0.3299999999999998
+Amps: 1023
+Amps: 1023
+speed was set: 0.3399999999999998
+Amps: 1023
+speed was set: 0.34999999999999976
+Amps: 1023
+speed was set: 0.35999999999999976
+Amps: 1023
+speed was set: 0.3699999999999998
+Amps: 1023
+speed was set: 0.3799999999999997
+Amps: 1023
+speed was set: 0.38999999999999974
+Amps: 1023
+speed was set: 0.39999999999999974
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.4099999999999997
+Amps: 1023
+speed was set: 0.4199999999999997
+Amps: 1023
+speed was set: 0.42999999999999966
+Amps: 1023
+Amps: 1023
+speed was set: 0.43999999999999967
+Amps: 1023
+speed was set: 0.4499999999999997
+Amps: 1023
+speed was set: 0.45999999999999963
+Amps: 1023
+speed was set: 0.46999999999999964
+Amps: 1023
+speed was set: 0.47999999999999965
+Amps: 1023
+speed was set: 0.4899999999999996
+Amps: 1023
+speed was set: 0.4999999999999996
+Amps: 1023
+speed was set: 0.5099999999999996
+Amps: 1023
+speed was set: 0.5199999999999997
+Amps: 1023
+speed was set: 0.5299999999999997
+Amps: 1023
+Amps: 1023
+speed was set: 0.5399999999999997
+Amps: 1023
+speed was set: 0.5499999999999998
+Amps: 1023
+Amps: 1023
+speed was set: 0.5599999999999998
+Amps: 1023
+speed was set: 0.5699999999999998
+Amps: 1023
+speed was set: 0.58
+Amps: 1023
+speed was set: 0.59
+Amps: 1023
+speed was set: 0.6
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.6100000000000001
+Amps: 1023
+speed was set: 0.6200000000000001
+Amps: 1023
+speed was set: 0.6300000000000001
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.6400000000000001
+Amps: 1023
+speed was set: 0.6500000000000002
+Amps: 1023
+speed was set: 0.6600000000000003
+Amps: 1023
+speed was set: 0.6700000000000003
+Amps: 1023
+speed was set: 0.6800000000000004
+Amps: 1023
+speed was set: 0.6900000000000004
+Amps: 1023
+speed was set: 0.7000000000000004
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.6900000000000004
+Amps: 1023
+Amps: 1023
+speed was set: 0.6800000000000004
+Amps: 1023
+speed was set: 0.6700000000000003
+Amps: 1023
+speed was set: 0.6600000000000003
+Amps: 1023
+speed was set: 0.6500000000000002
+Amps: 1023
+speed was set: 0.6400000000000001
+Amps: 1023
+speed was set: 0.6300000000000001
+Amps: 1023
+speed was set: 0.6200000000000001
+Amps: 1023
+speed was set: 0.6100000000000001
+Amps: 1023
+speed was set: 0.6
+Amps: 1023
+speed was set: 0.59
+Amps: 1023
+speed was set: 0.58
+Amps: 1023
+speed was set: 0.5699999999999998
+Amps: 1023
+speed was set: 0.5599999999999998
+Amps: 1023
+speed was set: 0.5499999999999998
+Amps: 1023
+speed was set: 0.5399999999999997
+Amps: 1023
+speed was set: 0.5299999999999997
+Amps: 1023
+speed was set: 0.5199999999999997
+Amps: 1023
+speed was set: 0.5099999999999996
+Amps: 1023
+speed was set: 0.4999999999999996
+Amps: 1023
+speed was set: 0.4899999999999996
+Amps: 1023
+speed was set: 0.47999999999999965
+Amps: 1023
+speed was set: 0.0
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.009999999999999998
+Amps: 1023
+speed was set: 0.019999999999999997
+Amps: 1023
+Amps: 1023
+speed was set: 0.03
+Amps: 1023
+speed was set: 0.039999999999999994
+Amps: 1023
+speed was set: 0.05
+Amps: 1023
+speed was set: 0.060000000000000005
+Amps: 1023
+speed was set: 0.07
+Amps: 1023
+speed was set: 0.08
+Amps: 1023
+speed was set: 0.09000000000000001
+Amps: 1023
+speed was set: 0.10000000000000002
+Amps: 1023
+speed was set: 0.11000000000000001
+Amps: 1023
+speed was set: 0.12000000000000002
+Amps: 1023
+speed was set: 0.13000000000000003
+Amps: 1023
+speed was set: 0.14
+Amps: 1023
+speed was set: 0.15
+Amps: 1023
+speed was set: 0.15999999999999998
+Amps: 1023
+speed was set: 0.16999999999999998
+Amps: 1023
+speed was set: 0.17999999999999997
+Amps: 1023
+speed was set: 0.18999999999999995
+Amps: 1023
+speed was set: 0.19999999999999996
+Amps: 1023
+speed was set: 0.20999999999999994
+Amps: 1023
+speed was set: 0.21999999999999992
+Amps: 1023
+speed was set: 0.2299999999999999
+Amps: 1023
+speed was set: 0.2399999999999999
+Amps: 1023
+speed was set: 0.2499999999999999
+Amps: 1023
+speed was set: 0.2599999999999999
+Amps: 1023
+speed was set: 0.26999999999999985
+Amps: 1023
+Amps: 1023
+speed was set: 0.27999999999999986
+Amps: 1023
+speed was set: 0.28999999999999987
+Amps: 1023
+speed was set: 0.2999999999999998
+Amps: 1023
+speed was set: 0.30999999999999983
+Amps: 1023
+speed was set: 0.3199999999999998
+Amps: 1023
+speed was set: 0.3299999999999998
+Amps: 1023
+speed was set: 0.3399999999999998
+Amps: 1023
+speed was set: 0.34999999999999976
+Amps: 1023
+speed was set: 0.35999999999999976
+Amps: 1023
+speed was set: 0.3699999999999998
+Amps: 1023
+speed was set: 0.3799999999999997
+Amps: 1023
+speed was set: 0.38999999999999974
+Amps: 1023
+speed was set: 0.39999999999999974
+Amps: 1023
+speed was set: 0.4099999999999997
+Amps: 1023
+speed was set: 0.4199999999999997
+Amps: 1023
+speed was set: 0.42999999999999966
+Amps: 1023
+speed was set: 0.43999999999999967
+Amps: 1023
+speed was set: 0.4499999999999997
+Amps: 1023
+speed was set: 0.45999999999999963
+Amps: 1023
+speed was set: 0.46999999999999964
+Amps: 1023
+speed was set: 0.47999999999999965
+Amps: 1023
+speed was set: 0.4899999999999996
+Amps: 1023
+speed was set: 0.4999999999999996
+Amps: 1023
+speed was set: 0.5099999999999996
+Amps: 1023
+speed was set: 0.5199999999999997
+Amps: 1023
+speed was set: 0.5299999999999997
+Amps: 1023
+speed was set: 0.5399999999999997
+Amps: 1023
+speed was set: 0.5499999999999998
+Amps: 1023
+speed was set: 0.5599999999999998
+Amps: 1023
+speed was set: 0.5699999999999998
+Amps: 1023
+speed was set: 0.58
+Amps: 1023
+speed was set: 0.59
+Amps: 1023
+speed was set: 0.6
+Amps: 1023
+speed was set: 0.6100000000000001
+Amps: 1023
+speed was set: 0.6200000000000001
+Amps: 1023
+speed was set: 0.6300000000000001
+Amps: 1023
+speed was set: 0.6400000000000001
+Amps: 1023
+speed was set: 0.6500000000000002
+Amps: 1023
+speed was set: 0.6600000000000003
+Amps: 1023
+speed was set: 0.6700000000000003
+Amps: 1023
+speed was set: 0.6800000000000004
+Amps: 1023
+speed was set: 0.6900000000000004
+Amps: 1023
+speed was set: 0.7000000000000004
+Amps: 1023
+speed was set: 0.7100000000000005
+Amps: 1023
+speed was set: 0.7200000000000005
+Amps: 1023
+speed was set: 0.7300000000000005
+Amps: 1023
+speed was set: 0.7400000000000007
+Amps: 1023
+speed was set: 0.7500000000000007
+Amps: 1023
+speed was set: 0.7600000000000007
+Amps: 1023
+speed was set: 0.7700000000000008
+Amps: 1023
+speed was set: 0.7800000000000008
+Amps: 1023
+speed was set: 0.7900000000000008
+Amps: 1023
+speed was set: 0.8000000000000009
+Amps: 1023
+speed was set: 0.8100000000000009
+Amps: 1023
+speed was set: 0.820000000000001
+Amps: 1023
+speed was set: 0.8300000000000011
+Amps: 1023
+speed was set: 0.8400000000000011
+Amps: 1023
+speed was set: 0.8500000000000011
+Amps: 1023
+speed was set: 0.8600000000000012
+Amps: 1023
+speed was set: 0.8700000000000012
+Amps: 1023
+speed was set: 0.8800000000000012
+Amps: 1023
+speed was set: 0.8900000000000013
+Amps: 1023
+speed was set: 0.9000000000000014
+Amps: 1023
+speed was set: 0.9100000000000014
+Amps: 1023
+speed was set: 0.9200000000000014
+Amps: 1023
+speed was set: 0.9300000000000015
+Amps: 1023
+speed was set: 0.9400000000000015
+Amps: 1023
+speed was set: 0.9500000000000015
+Amps: 1023
+speed was set: 0.9600000000000016
+Amps: 1023
+speed was set: 0.9700000000000016
+Amps: 1023
+speed was set: 0.9800000000000016
+Amps: 1023
+speed was set: 0.9900000000000018
+Amps: 1023
+speed was set: 1.0
+Amps: 1023
+speed was set: 1.0
+Amps: 1023
+speed was set: 1.0
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.99
+Amps: 1023
+speed was set: 0.9799999999999999
+Amps: 1023
+speed was set: 0.9699999999999999
+Amps: 1023
+speed was set: 0.9599999999999999
+Amps: 1023
+speed was set: 0.9499999999999997
+Amps: 1023
+speed was set: 0.9399999999999997
+Amps: 1023
+speed was set: 0.9299999999999997
+Amps: 1023
+speed was set: 0.9199999999999996
+Amps: 1023
+speed was set: 0.9099999999999996
+Amps: 1023
+speed was set: 0.8999999999999996
+Amps: 1023
+speed was set: 0.8899999999999995
+Amps: 1023
+speed was set: 0.8799999999999994
+Amps: 1023
+speed was set: 0.8699999999999994
+Amps: 1023
+speed was set: 0.8599999999999993
+Amps: 1023
+speed was set: 0.8499999999999993
+Amps: 1023
+speed was set: 0.8399999999999993
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.8299999999999993
+Amps: 1023
+speed was set: 0.8199999999999992
+Amps: 1023
+speed was set: 0.8099999999999992
+Amps: 1023
+speed was set: 0.7999999999999992
+Amps: 1023
+speed was set: 0.789999999999999
+Amps: 1023
+speed was set: 0.779999999999999
+Amps: 1023
+speed was set: 0.769999999999999
+Amps: 1023
+speed was set: 0.7599999999999989
+Amps: 1023
+speed was set: 0.7499999999999989
+Amps: 1023
+speed was set: 0.7399999999999989
+Amps: 1023
+speed was set: 0.7299999999999988
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.7199999999999988
+Amps: 1023
+speed was set: 0.7099999999999987
+Amps: 1023
+speed was set: 0.6999999999999986
+Amps: 1023
+speed was set: 0.6899999999999986
+Amps: 1023
+speed was set: 0.6799999999999986
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.6699999999999985
+Amps: 1023
+speed was set: 0.6599999999999985
+Amps: 1023
+speed was set: 0.6499999999999985
+Amps: 1023
+speed was set: 0.6399999999999983
+Amps: 1023
+speed was set: 0.6299999999999983
+Amps: 1023
+Amps: 1023
+speed was set: 0.6199999999999983
+Amps: 1023
+speed was set: 0.6099999999999982
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.5999999999999982
+Amps: 1023
+Amps: 1023
+speed was set: 0.6099999999999982
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.5999999999999982
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 767
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+hard stop: 0
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+speed was set: 0.6099999999999982
+Amps: 1023
+Amps: 1023
+speed was set: 0.6199999999999983
+Amps: 1023
+speed was set: 0.6299999999999983
+Amps: 1023
+speed was set: 0.6399999999999983
+Amps: 1023
+Amps: 1023
+speed was set: 0.6499999999999985
+Amps: 1023
+speed was set: 0.6399999999999983
+Amps: 1023
+speed was set: 0.6299999999999983
+Amps: 1023
+speed was set: 0.6199999999999983
+Amps: 1023
+Amps: 1023
+hard stop: 1
+Amps: 1023
+speed was set: 0.6099999999999982
+Amps: 1023
+Amps: 1023
+speed was set: 0.5999999999999982
+Amps: 1023
+Amps: 1023
+RPM: 0.30855295423300333
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+RPM: 15.588696375463373
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+RPM: 15.887703717695642
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+hard stop: 0
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+Amps: 1023
+pi@raspberrypi:~/Trencher/trencher/Software Versions/RPi $
