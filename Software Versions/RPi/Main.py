@@ -8,6 +8,8 @@ import os
 os.system ("sudo pigpiod") #Launching GPIO library
 from Peripherals import *
 from Connections import *
+import time
+import threading
 
 def ControlMotor(command):# check if the switch is on and button is not pressed. If so, accelerate motor to max speed
     #start recording clock for tracking RPM data
@@ -27,17 +29,18 @@ def ControlMotor(command):# check if the switch is on and button is not pressed.
 sv = 12 #PWM pin
 fr = 27 #non-PWM pin
 brk = 22 #non-PWM pin
-# rpm = 17 #non-PWM pin
+rpm = 17 #non-PWM pin
 pi = pigpio.pi()
-# speed = 0
+speed = 0
 m = Motor(pi, sv, fr, brk)
-# c = CurrentSensor(0)
-# h = HallEffectSensor(pi, rpm, 4)
+curr = CurrentSensor(0)
+h = HallEffectSensor(pi, rpm, 4)
 port = 3000
 c = None
 r = None
 message = None
 foundPort = False
+closing = False
 while not foundPort:
     try:
         c = ClientConnection(port)
@@ -55,9 +58,22 @@ print(f"message received: {message.contents()}")
 w = SocketWriter(c.client())
 w.send(message)
 
+f = open("sensor_output.txt", "a")
+
+def collectData():
+    while not closing:
+        rpms = h.measureRPMs()
+        if (rpms == 0):
+            f.write(f"RPM: {rpms} {time.time()}\n")
+    f.close()
+
+thread = threading.Thread(target = collectData)
+thread.start()
+
 while True:
-    # amps = c.measureCurrent(1000)
-    # rpms = h.measureRPMs()
+    #amps = curr.read()
+    #rpms = h.measureRPMs()
+    #print(f"RPM: {rpms}")
 
     message = r.receive()
     # print(message)
@@ -70,4 +86,5 @@ while True:
         #     w.send(Message('r', rpms))
         if (message.type() == 's' and message.contents() == "Shutdown"):
             c.close()
+            closing = True
             exit(0)

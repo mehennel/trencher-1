@@ -1,5 +1,6 @@
 import pigpio #importing GPIO library
 import time
+from spidev import SpiDev
 
 class Motor():
     __dir = None
@@ -25,7 +26,7 @@ class Motor():
             self.__currSpeed = 0
         else:
             self.__currSpeed = speed
-        print(f"speed was set: {self.__currSpeed}")
+        print(f"speed was set: {(self.__currSpeed / 255)}")
         self.__pi.set_PWM_dutycycle(self.__speed, self.__currSpeed)
 
     def speedUp(self, amount):
@@ -65,13 +66,15 @@ class HallEffectSensor():
         self.__startTime = time.time()
 
     def read(self):
-        return self.__pi.read(pin)
+        return self.__pi.read(self.__pin)
 
     def measureRPMs(self):
         # Called if sensor output changes
-        if (self.read() == 0):
+        tempReading = self.read()
+        if (tempReading == 0):
             self.__currRevs += 1
-            print(f"output!")
+        #else:
+            #print("no HE data!")
 
         if (self.__currRevs == self.__revolutions + 1): #plus 1 means it went full circle
             rpmEndTime = time.time()
@@ -79,24 +82,28 @@ class HallEffectSensor():
             self.__startTime = time.time()
             self.__rpms = 1.0 / ((rpmDelta) / 60.0)
             self.__currRevs = 0
+            print(f"RPM: {self.__rpms}")
+            while(self.read() == 0):
+                x=0
 
-        return self.__rpms
+        return tempReading # self.__rpms
 
 class CurrentSensor():
     __channel = None
     __ZEROAMP = 513
     __HALFAMP = 7
+    __spi = None
 
     def __init__(self, channel):
         self.__channel = channel
         # Start SPI connection
-        spi = spidev.SpiDev() # Created an object
-        spi.open(0,0)
+        self.__spi = SpiDev() # Created an object
+        self.__spi.open(0, 0)
+        self.__spi.max_speed_hz = 1000000
 
     # Read MCP3008 data
     def read(self):
-      spi.max_speed_hz = 1350000
-      adc = spi.xfer2([1,(8+self.__channel)<<4,0])
+      adc = self.__spi.xfer2([1,(8+self.__channel)<<4,0])
       data = ((adc[1]&3) << 8) + adc[2]
       return data
 
