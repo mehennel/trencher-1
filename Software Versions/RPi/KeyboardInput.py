@@ -32,6 +32,7 @@ class KeyboardInput():
             self.sendMessage(Message('m', k))
         if (k == 'delete'):
             self.sendMessage(Message('s', 'Shutdown'))
+            time.sleep(0.3)
             self.__stop = True
             return False  # stop listener
 
