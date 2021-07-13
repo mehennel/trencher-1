@@ -40,7 +40,7 @@ The PSTDL has an Augmented Sandbox project. This project uses a projector and a 
 
 The need for this project is to help in the research and publication of what sort of excavation forces are experienced when digging regolith and frozen regolith. As well as the effects bucket ladder trenchers have on the distinct layers of regolith. This project will inform future design of lunar excavation systems.
 
-[![Schematic Pic][schematic]]
+![Schematic Pic][schematic]
 
 <!-- RUNNING THE TRENCHER SOFTWARE -->
 ## Running the Trencher Software
