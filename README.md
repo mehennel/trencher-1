@@ -86,8 +86,13 @@ Windows: type "ipconfig" in the terminal and find IPv4 under Ethernet.
 Linux: Go to Settings -> Network.
 
 In the terminal, type
+Ubuntu
 ```sh
 nmap -sP xx.xx.xx.*
+```
+Windows:
+```sh
+Nmap -sP xx.xx.xx.*
 ```
 where "xx" are the numbers of your IP address.
 
@@ -133,15 +138,15 @@ The Pi terminal will display "message received: hello" when a connection has bee
 
 ### Down: Speed -1%
 
-### W: Forward
+### W:  Forward
 
-### S: Backward
+### S:  Backward
 
-### ESC: Toggle Hard stop
+### ESC:  Toggle Hard stop
 
-### Space: Reset speed to 0%
+### Space:  Reset speed to 0%
 
-### DEL: Terminate software
+### DEL:  Terminate software
 
 
 
