@@ -128,6 +128,10 @@ Windows:
 ```sh
 Python Client.py xx.xx.xx.xx
 ```
+In both cases, make sure to check you are using Python 3:
+```sh
+Python --version
+```
 
 The Pi terminal will display "message received: hello" when a connection has been established.
 
