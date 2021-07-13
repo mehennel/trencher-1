@@ -61,6 +61,7 @@ Install nmap here: [https://nmap.org/download.html](nmap)
    ```
    Or alternatively download the .zip from the Code dropdown at the top of this page.
 2. Install the pynput package with pip from a terminal:
+
    Ubuntu:
    ```sh
    pip3 install pynput
@@ -79,12 +80,14 @@ Install nmap here: [https://nmap.org/download.html](nmap)
 Connect to the Raspberry Pi either by direct ethernet to laptop (Ubuntu) or through a Router (Windows).
 
 Find your IPv4 address of the ethernet connection through your laptop:
+
 Windows: type "ipconfig" in the terminal and find IPv4 under Ethernet.
+
 Linux: Go to Settings -> Network.
 
 In the terminal, type
 ```sh
-nmap -sP xx.xx.xx.\*
+nmap -sP xx.xx.xx.*
 ```
 where "xx" are the numbers of your IP address.
 
@@ -111,6 +114,7 @@ python3 Main.py
 Navigate to the project files stored on your computer on another terminal.
 
 Start the client with the pi address as a parameter:
+
 Ubuntu:
 ```sh
 python3 Client.py xx.xx.xx.xx
@@ -125,13 +129,19 @@ The Pi terminal will display "message received: hello" when a connection has bee
 <!-- CONTROLS -->
 ## Controls
 
-####Up: Speed +1%
-####Down: Speed -1%
-####W: Forward
-####S: Backward
-####ESC: Toggle Hard stop
-####Space: Reset speed to 0%
-####DEL: Terminate software
+### Up: Speed +1%
+
+### Down: Speed -1%
+
+### W: Forward
+
+### S: Backward
+
+### ESC: Toggle Hard stop
+
+### Space: Reset speed to 0%
+
+### DEL: Terminate software
 
 
 
