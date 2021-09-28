@@ -90,8 +90,8 @@ class HallEffectSensor():
 
 class CurrentSensor():
     __channel = None
-    __ZEROAMP = 513
-    __HALFAMP = 7
+    __ZEROAMP = 810
+    __HALFAMP = 10
     __spi = None
 
     def __init__(self, channel):
@@ -113,5 +113,6 @@ class CurrentSensor():
             reading = self.read()
             if (reading > maxVal):
                 maxVal = reading
-        amps = ( (maxVal - self.__ZEROAMP) / self.HALFAMP ) / 2.0
+        amps = ( (maxVal - self.__ZEROAMP) / self.__HALFAMP ) / 2.0
         return amps
+

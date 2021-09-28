@@ -58,14 +58,21 @@ print(f"message received: {message.contents()}")
 w = SocketWriter(c.client())
 w.send(message)
 
-f = open("sensor_output.txt", "a")
+rpmFile = open("rpm_output.txt", "a")
+ampFile = open("current_output.txt", "a")
+startTime = time.time()
 
 def collectData():
     while not closing:
         rpms = h.measureRPMs()
+        amps = curr.measureCurrent(100);
+        t = time.time() - startTime
         if (rpms == 0):
-            f.write(f"RPM: {rpms} {time.time()}\n")
-    f.close()
+            rpmFile.write(f"{t} {rpms}\n")
+        ampFile.write(f"{t} {amps}\n")
+    rpmFile.close()
+    ampFile.close()
+
 
 thread = threading.Thread(target = collectData)
 thread.start()
@@ -88,3 +95,4 @@ while True:
             c.close()
             closing = True
             exit(0)
+
