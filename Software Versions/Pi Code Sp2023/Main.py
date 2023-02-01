@@ -5,7 +5,7 @@
 #|*****************************************************************************|
 
 import os
-#os.system("sudo killall pigpiod")
+os.system("sudo killall pigpiod") #kills any running pigpio daemons
 os.system ("sudo pigpiod") #Launching GPIO library
 from Peripherals import *
 from Connections import *
