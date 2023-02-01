@@ -2,6 +2,7 @@
 #| Trencher BLDC Motor controls and sensor output
 #| Author: Conor Porter
 #| Last Modified: 04/12/2021
+#This code is outdated, please navigate to the trencher/Softwar Versions/ Pi Code Sp2023/ Main.py#
 #|*****************************************************************************|
 
 import os
